@@ -130,6 +130,9 @@ matplotlib-inline==0.1.7
     # via
     #   ipykernel
     #   ipython
+mypy==1.17.1
+mypy-extensions==1.1.0
+    # via mypy
 narwhals==2.0.1
     # via
     #   altair
@@ -172,6 +175,8 @@ parsel==1.10.0
     #   scrapy
 parso==0.8.4
     # via jedi
+pathspec==0.12.1
+    # via mypy
 patsy==1.0.1
     # via statsmodels
 pexpect==4.9.0
@@ -243,6 +248,7 @@ rpds-py==0.26.0
     # via
     #   jsonschema
     #   referencing
+ruff==0.12.7
 scikit-learn==1.7.1
 scipy==1.16.1
     # via
@@ -289,6 +295,7 @@ typing-extensions==4.14.1
     # via
     #   altair
     #   beautifulsoup4
+    #   mypy
     #   pyopenssl
     #   referencing
     #   sqlalchemy
